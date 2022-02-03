@@ -6,6 +6,7 @@ function initMap() {
     center: { lat: 52.3676, lng: 4.9041 },
   });
   //Tour stops based on my favourite museums. The top one is my favourite.
+  //This list outlines eahc of the latitudes and longitudes of the museums 
   const tourStops = [
     [{ lat: 52.3040, lng: 4.8577 }, "Cobra Museum"],
     [{ lat: 52.3573, lng: 4.8830 }, "Van Gough Museum"],
@@ -16,7 +17,7 @@ function initMap() {
   // This creates a window to share information
   const infoWindow = new google.maps.InfoWindow();
 
-  // This creates the markers
+  // This creates the markers for each of the map and labels them from 1 to 5.
   tourStops.forEach(([position, title], i) => {
     const marker = new google.maps.Marker({
       position,
