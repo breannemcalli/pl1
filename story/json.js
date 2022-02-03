@@ -9,9 +9,9 @@ function initMap() {
   const tourStops = [
     [{ lat: 52.3065, lng: 4.8723 }, "Cobra Museums"],
     [{ lat: 52.3573, lng: 4.8830 }, "Van Gough Museum"],
-    [{ lat: 52.3644, lng: 4.8507 }, "Rembrandtpark"],
-    [{ lat: 52.3986, lng: 4.9314 }, "Noordpark"],
-    [{ lat: 52.3937, lng: 4.9463 }, "Nieuwendam"],
+    [{ lat: 52.3632, lng: 4.8943 }, "Rijksmuseum"],
+    [{ lat: 52.3666, lng: 4.9111 }, "Holocaust Memorial and Dutch Theater"],
+    [{ lat: 52.3744, lng: 4.8923 }, "Amsterdam Museum"],
   ];
   // Create an info window to share between markers.
   const infoWindow = new google.maps.InfoWindow();
