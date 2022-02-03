@@ -9,7 +9,7 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://maps.googleapis.com/maps/api/directions/json?origin=CN+Tower&destination=Harbourfront+Centre&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
+https://maps.googleapis.com/maps/api/directions/json?destination=place_id: ChIJydISiio1K4gRlUBlxQfjf3Q&origin=place_id: ChIJmzrzi9Y0K4gRgXUc3sTY7RU&language=en&mode=walking&unites=metric+Centre&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 
 ## Next paste the full JSON response to this query here:
