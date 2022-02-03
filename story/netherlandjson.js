@@ -17,7 +17,15 @@ function initMap() {
     const marker = new google.maps.Marker({
       position: { lat: 52.36693998779785, lng: 4.906141045774263 },
       map,
-      title: "Amsterdam",
+      title: "test",
     });
+    marker.addListener("click", () => {
+      infowindow.open({
+        anchor: marker,
+        map,
+        shouldFocus: false,
+      });
+    }); 
+   
   
 }
