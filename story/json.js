@@ -1,3 +1,5 @@
+//Breanne McAllister
+//Google Assignment for Geom 99
 // Credit fr template goes to https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility#maps_marker_accessibility-html
 
 function initMap() {
