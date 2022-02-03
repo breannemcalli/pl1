@@ -10,11 +10,11 @@ function initMap() {
   //Tour stops based on my favourite museums. The top one is my favourite.
   //This list outlines eahc of the latitudes and longitudes of the museums 
   const tourStops = [
-    [{ lat: 52.3040, lng: 4.8577 }, "Cobra Museum"],
-    [{ lat: 52.3652, lng: 4.8826 }, "Van Gough Museum"],
-    [{ lat: 52.3601, lng: 4.8852 }, "Rijksmuseum"],
-    [{ lat: 52.3666, lng: 4.9111 }, "Holocaust Memorial and Dutch Theater"],
-    [{ lat: 52.3744, lng: 4.8923 }, "Amsterdam Museum"],
+    [{ lat: 52.30406934582546, lng: 4.857803396531247 }, "Cobra Museum"],
+    [{ lat: 52.35854692589102, lng: 4.880957581190437 }, "Van Gough Museum"],
+    [{ lat: 52.36012862120087, lng: 4.885175883039641 }, "Rijksmuseum"],
+    [{ lat: 52.36659145090503, lng: 4.911209229066864 }, "Holocaust Memorial and Dutch Theater"],
+    [{ lat: 52.37014133880945, lng: 4.8899526422331965 }, "Amsterdam Museum"],
   ];
   // This creates a window to share information
   const infoWindow = new google.maps.InfoWindow();
