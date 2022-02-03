@@ -16,7 +16,7 @@ function initMap() {
       content: contentString,
     });
     const marker = new google.maps.Marker({
-      position: { lat: 44.357, lng: -78.724 },
+      position: { lat: 52.36693998779785, lng: 4.906141045774263 },
       map,
       title: "Amsterdam",
     });
