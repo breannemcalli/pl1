@@ -10,8 +10,7 @@ function initMap() {
     '<h1 id="MainHeading" class="MainHeading">Vimy Ridge Trip</h1>'
     '<div id="bodyContent">' +
     "<p>This is a test</p>" +
-    "</div>" +
-    "</div>";
+    "</div>" 
     const infowindow = new google.maps.InfoWindow({
       content: contentString,
     });
