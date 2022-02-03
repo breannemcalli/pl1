@@ -1,7 +1,7 @@
 //Breanne McAllister
 //Google Assignment for Geom 99
-// Credit fr template goes to https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility#maps_marker_accessibility-html
-
+// Credit for template goes to https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility#maps_marker_accessibility-html
+//My map provides 5 different museums that I went to on this trip and my ranking of them from my favourite to my least favourite
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 12,
@@ -29,7 +29,7 @@ function initMap() {
       optimized: false,
     });
 
-    // Add a click listener for each marker, and set up the info window.
+    // This sets up an information window when the viewer clicks the marker
     marker.addListener("click", () => {
       infoWindow.close();
       infoWindow.setContent(marker.getTitle());
