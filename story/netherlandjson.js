@@ -7,8 +7,18 @@ function initMap() {
     '<div id="content">' +
     '<div id="infoNotice">'+
     "</div>"+
-    '<h1 id="MainHeading" class="MainHeading">Amsterdam</h1>'
+    '<h1 id="MainHeading" class="MainHeading">Vimy Ridge Trip</h1>'
+    '<div id="bodyContent">' +
+    "<p>This is a test</p>" +
+    "</div>" +
+    "</div>";
     const infowindow = new google.maps.InfoWindow({
       content: contentString,
     });
+    const marker = new google.maps.Marker({
+      position: { lat: 44.357, lng: -78.724 },
+      map,
+      title: "Amsterdam",
+    });
+  
 }
