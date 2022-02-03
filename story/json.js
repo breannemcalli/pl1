@@ -1,22 +1,22 @@
+// Credit fr template goes to https://developers.google.com/maps/documentation/javascript/examples/marker-accessibility#maps_marker_accessibility-html
+
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 12,
     center: { lat: 52.3676, lng: 4.9041 },
   });
-  // Set LatLng and title text for the markers. The first marker (Boynton Pass)
-  // receives the initial focus when tab is pressed. Use arrow keys to
-  // move between markers; press tab again to cycle through the map controls.
+  //Tour stops based on my favourite museums
   const tourStops = [
-    [{ lat: 52.3065, lng: 4.8723 }, "Cobra Museums"],
+    [{ lat: 52.3040, lng: 4.8577 }, "Cobra Museum"],
     [{ lat: 52.3573, lng: 4.8830 }, "Van Gough Museum"],
     [{ lat: 52.3632, lng: 4.8943 }, "Rijksmuseum"],
     [{ lat: 52.3666, lng: 4.9111 }, "Holocaust Memorial and Dutch Theater"],
     [{ lat: 52.3744, lng: 4.8923 }, "Amsterdam Museum"],
   ];
-  // Create an info window to share between markers.
+  // This creates a window to share information
   const infoWindow = new google.maps.InfoWindow();
 
-  // Create the markers.
+  // This creates the markers
   tourStops.forEach(([position, title], i) => {
     const marker = new google.maps.Marker({
       position,
