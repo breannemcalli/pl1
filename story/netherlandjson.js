@@ -1,13 +1,14 @@
+
 function initMap() {
-    const myLatLng = { lat:52.3957590338986, lng:4.929824658990868};
-    const map = new google.maps.Map(document.getElementById("map"), {
+    const map = new google.maps.Map(document.getElementById("map").{
+      center: {lat:52.36693998779785, lng:4.906141045774263},
       zoom: 4,
-      center: myLatLng,
     });
-  
-    new google.maps.Marker({
-      position: myLatLng,
-      map,
-      title: "Hello World!",
+    '<div id="content">' +
+    '<div id="infoNotice">'+
+    "</div>"+
+    '<h1 id="MainHeading" class="MainHeading">Amsterdam</h1>'
+    const infowindow = new google.maps.InfoWindow({
+      content: contentString,
     });
-  }
+}
