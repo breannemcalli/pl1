@@ -7,7 +7,7 @@ function initMap() {
   // receives the initial focus when tab is pressed. Use arrow keys to
   // move between markers; press tab again to cycle through the map controls.
   const tourStops = [
-    [{ lat: 52.3065, lng: 4.8723 }, "Cobra Museum"],
+    [{ lat: 52.3065, lng: 4.8723 }, "Cobra Museums"],
     [{ lat: 52.3573, lng: 4.8830 }, "Van Gough Museum"],
     [{ lat: 52.3644, lng: 4.8507 }, "Rembrandtpark"],
     [{ lat: 52.3986, lng: 4.9314 }, "Noordpark"],
