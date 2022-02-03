@@ -13,7 +13,7 @@ function initMap() {
     [{ lat: 52.30406934582546, lng: 4.857803396531247 }, "Cobra Museum"],
     [{ lat: 52.35854692589102, lng: 4.880957581190437 }, "Van Gough Museum"],
     [{ lat: 52.36012862120087, lng: 4.885175883039641 }, "Rijksmuseum"],
-    [{ lat: 52.36659145090503, lng: 4.911209229066864 }, "Holocaust Memorial and Dutch Theater"],
+    [{ lat: 52.36651, lng: 4.91106 }, "Holocaust Memorial and Dutch Theater"],
     [{ lat: 52.37014133880945, lng: 4.8899526422331965 }, "Amsterdam Museum"],
   ];
   // This creates a window to share information
