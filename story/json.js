@@ -11,8 +11,8 @@ function initMap() {
   //This list outlines eahc of the latitudes and longitudes of the museums 
   const tourStops = [
     [{ lat: 52.3040, lng: 4.8577 }, "Cobra Museum"],
-    [{ lat: 52.3573, lng: 4.8830 }, "Van Gough Museum"],
-    [{ lat: 52.3632, lng: 4.8943 }, "Rijksmuseum"],
+    [{ lat: 52.3652, lng: 4.8826 }, "Van Gough Museum"],
+    [{ lat: 52.3601, lng: 4.8852 }, "Rijksmuseum"],
     [{ lat: 52.3666, lng: 4.9111 }, "Holocaust Memorial and Dutch Theater"],
     [{ lat: 52.3744, lng: 4.8923 }, "Amsterdam Museum"],
   ];
