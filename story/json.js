@@ -5,7 +5,7 @@ function initMap() {
     zoom: 12,
     center: { lat: 52.3676, lng: 4.9041 },
   });
-  //Tour stops based on my favourite museums
+  //Tour stops based on my favourite museums. The top one is my favourite.
   const tourStops = [
     [{ lat: 52.3040, lng: 4.8577 }, "Cobra Museum"],
     [{ lat: 52.3573, lng: 4.8830 }, "Van Gough Museum"],
