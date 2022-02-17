@@ -34,7 +34,22 @@
           zoom: 13, // Zoom level
           container: "viewDiv" // Div element
         });
+const graphicsLayer = new GraphicsLayer();
+ map.add(graphicsLayer);
 
+ const point = { //Create a point
+    type: "point",
+    longitude: 132.961259,
+    latitude: -12.260958
+ };
+ const simpleMarkerSymbol = {
+    type: "simple-marker",
+    color: [226, 119, 40],  // Orange
+    outline: {
+        color: [255, 255, 255], // White
+        width: 1
+    }
+ };
       });
     </script>
 
