@@ -1,46 +1,51 @@
-
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <title>ArcGIS API for JavaScript Tutorials: Display a map</title>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>ArcGIS API for JavaScript Tutorials: Add a point, line, and polygon</title>
+  <style>
+    html, body, #viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.22/"></script>
+  <script>
 
-    <style>
-      html,
-      body,
-      #viewDiv {
-        padding: 0;
-        margin: 0;
-        height: 100%;
-        width: 100%;
-      }
-    </style>
+  require([
+    "esri/config",
+    "esri/Map",
+    "esri/views/MapView",
 
-    <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/light/main.css">
-    <script src="https://js.arcgis.com/4.22/"></script>
+    "esri/Graphic",
+    "esri/layers/GraphicsLayer"
 
-    <script>
-      require(["esri/config","esri/Map", "esri/views/MapView"], function (esriConfig,Map, MapView) {
+    ], function(esriConfig,Map, MapView, Graphic, GraphicsLayer) {
 
-        esriConfig.apiKey = "AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w";
+  esriConfig.apiKey = "AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w";
 
-        const map = new Map({
-          basemap: "arcgis-topographic" // Basemap layer service
-        });
+  const map = new Map({
+    basemap: "arcgis-topographic" //Basemap layer service
+  });
 
-        const view = new MapView({
-          map: map,
-          center: [133.5898, -12.3480], // Longitude, latitude
-          zoom: 13, // Zoom level
-          container: "viewDiv" // Div element
-        });
-const graphicsLayer = new GraphicsLayer();
+  const view = new MapView({
+    map: map,
+    center: [132.1298,-12.4414], //Longitude, latitude
+    zoom: 13,
+    container: "viewDiv"
+ });
+
+ const graphicsLayer = new GraphicsLayer();
  map.add(graphicsLayer);
 
  const point = { //Create a point
     type: "point",
-    longitude: 132.961259,
-    latitude: -12.260958
+    longitude: 131.778748,
+    latitude: -13.054170
  };
  const simpleMarkerSymbol = {
     type: "simple-marker",
@@ -50,11 +55,11 @@ const graphicsLayer = new GraphicsLayer();
         width: 1
     }
  };
-      });
-    </script>
 
-  </head>
-  <body>
-    <div id="viewDiv"></div>
-  </body>
+ });
+</script>
+</head>
+<body>
+  <div id="viewDiv"></div>
+</body>
 </html>
